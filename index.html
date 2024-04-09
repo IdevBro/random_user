@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/all.min.css" />
+    <link rel="stylesheet" href="./css/brands.min.css" />
+    <link rel="stylesheet" href="./css/fontawesome.min.css" />
+  </head>
+  <body id="body">
+    <nav class="navLight" id="nav">
+      <div class="container">
+        <div class="navbar">
+          <div class="logo" id="logo">
+            <i class="fa fa-user-secret" aria-hidden="true"></i>
+            <span class="u" id="u">U</span>
+            <span class="ser">SER</span>
+          </div>
+          <div class="night" id="night">
+            <i class="fa-solid fa-moon"></i>
+          </div>
+          <div class="light hideIcon" id="light">
+            <i class="fa-regular fa-sun"></i>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <header>
+      <div class="container">
+        <div class="searchPanel">
+          <div class="input">
+            <form id="form">
+              <input type="text" id="input" placeholder="Live search users" />
+            </form>
+            <div class="user">
+              <i class="fa-solid fa-user"></i>
+            </div>
+          </div>
+          <div class="buttons">
+            <button id="reload">Refresh</button>
+            <button id="clear">Clear</button>
+          </div>
+        </div>
+        <div class="cards" id="cards">
+          <div class="overlay hidden" id="loader"></div>
+        </div>
+      </div>
+    </header>
+    <footer></footer>
+    <script src="./mode.js"></script>
+    <script src="./script.js"></script>
+    <script src="./request.js"></script>
+  </body>
+</html>
