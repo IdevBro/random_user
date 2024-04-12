@@ -36,7 +36,7 @@ clear.addEventListener("click", (e) => {
 // add ui
 const addUI = (data) => {
   cards.innerHTML = "";
-  data.forEach((item) => {
+  data.results.forEach((item) => {
     const { name, picture, location, dob, gender } = item;
     cards.innerHTML += `
     <div class="itemCard">

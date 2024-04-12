@@ -1,5 +1,5 @@
 let body = document.getElementById("body");
-let nav = document.getElementById("nav");
+let navs = document.getElementById("navs");
 let u = document.getElementById("u");
 let logo = document.getElementById("logo");
 
@@ -9,7 +9,7 @@ let light = document.getElementById("light");
 let mode = localStorage.getItem("mode");
 if (mode) {
   body.classList.add("nightBody");
-  nav.classList.add("navNight");
+  navs.classList.add("navNight");
   night.classList.toggle("hideIcon");
   light.classList.toggle("hideIcon");
   u.classList.add("nightU");
@@ -20,7 +20,7 @@ function toggleFunc() {
   night.classList.toggle("hideIcon");
   light.classList.toggle("hideIcon");
   body.classList.toggle("nightBody");
-  nav.classList.toggle("navNight");
+  navs.classList.toggle("navNight");
   u.classList.toggle("nightU");
   logo.classList.toggle("nightLogo");
 }
